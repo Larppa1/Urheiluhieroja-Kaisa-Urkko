@@ -4,6 +4,9 @@
 }
 
 @media only screen and (max-width: 319px){
+
+    /* Global header */
+
     #navBar {
         width: 100%;
         height: 8vh;
@@ -34,6 +37,8 @@
         text-decoration: none;
         font-size: 0.8rem;
     }
+
+    /* Main page */
 
     #banner {
         background-image: url(img/banner-photo.png);
@@ -101,6 +106,16 @@
         line-height: 250%;
         font-family: raleway_semibold;
         font-size: 1rem;
+    }
+
+    /* About page */
+
+    #header {
+        
+    }
+
+    #about-title {
+
     }
 }
 
@@ -210,6 +225,9 @@
 }
 
 @media only screen and (min-width: 1279px) {
+
+    /* Navigation bar */
+
     #navBar {
         width: 100%;
         height: 14vh;
@@ -240,6 +258,8 @@
         text-decoration: none;
         font-size: 1.1rem;
     }
+
+    /* Main page */
 
     #banner {
         background-image: url(img/banner-photo.png);
@@ -310,6 +330,45 @@
         line-height: 250%;
         font-family: raleway_semibold;
         font-size: 1.3rem;
+    }
+
+    /* About page */
+
+    #info-area {
+        display: table;
+        width: 100%;
+        height: 100vh;
+        background-color: #f9f9f9;
+    }
+
+    #header {
+        display: table;
+        background-color: #929292a2;
+        width: 50vw;
+        height: 20vh;
+        float: right;
+        margin-top: 5vh;
+        margin-right: 5vw;
+    }
+
+    #about-title {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        color: #f9f9f9;
+        font-size: 3.5rem;
+        font-family: 'raleway_semibold';
+    }
+
+    #about-text {
+        display: table-cell;
+        float: right;
+        width: 50vw;
+        line-height: 160%;
+        font-family: 'raleway_light';
+        margin-top: 5vh;
+        margin-right: 5vw;
+        font-size: 1.1rem;
     }
 }
 
@@ -412,7 +471,7 @@
 
     #footer-title {
         line-height: 250%;
-        font-family: raleway_semibold;
+        font-family: 'raleway_semibold';
         font-size: 1.2rem;
     }
 }
