@@ -3,123 +3,15 @@
     padding: 0;
 }
 
-@media only screen and (max-width: 319px){
-
-    /* Global header */
-
-    #navBar {
-        width: 100%;
-        height: 8vh;
-        background-color: #35530a;
-        display: table;
-    }
-
-    #main-title {
-        display: table-cell;
-        vertical-align: middle;
-        padding-inline-start: 3vw;
-        font-size: 1rem;
-        min-width: 50vw;
-        font-family: raleway_semibold;
-        color: #f9f9f9;
-    }
-    
-    #navBarItems {
-        display: table-cell;
-        vertical-align: middle;
-        text-align: right;
-        padding-inline-end: 3vw;
-    }
-
-    #navBarItem {
-        padding-inline: 0.8vw;
-        color: #f9f9f9;
-        text-decoration: none;
-        font-size: 0.8rem;
-    }
-
-    /* Main page */
-
-    #banner {
-        background-image: url(img/banner-photo.png);
-        background-size: 100% 130%;
-        width: 100%;
-        height: 25vh;
-        display: table;
-    }
-
-    #banner-list {
-        display: table-cell;
-        vertical-align: middle;
-        text-align: left;
-        padding-inline-start: 3vw;
-        line-height: 180%;
-        font-size: 0.8rem;
-        font-family: raleway_light;
-    }
-
-    #banner-list-title {
-        line-height: 250%;
-    }
-
-    #text-area {
-        background-color: #f9f9f9;
-        width: 100%;
-        height: 60vh;
-    }
-
-    #left-text {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        line-height: 150%;
-        font-size: 1rem;
-        font-family: raleway_light;
-        padding: 0.8em;
-    }
-
-    #kaisa-photo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-
-    #footer {
-        display: table;
-        width: 100%;
-        height: 8vh;
-        background-color: #35530a;
-        font-family: raleway_light;
-    }
-
-    #footer-text {
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        padding-block-end: 2vh;
-        font-size: 0.63rem;
-        color: #f9f9f9;
-    }
-
-    #footer-title {
-        line-height: 250%;
-        font-family: raleway_semibold;
-        font-size: 1rem;
-    }
-
-    /* About page */
-
-    #header {
-        
-    }
-
-    #about-title {
-
-    }
+body {
+    background-color: #f9f9f9;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 359px){
+
+}
+
+@media only screen and (min-width: 599px) {
     #navBar {
         width: 100%;
         height: 10vh;
@@ -173,9 +65,8 @@
     }
 
     #text-area {
-        background-color: #f9f9f9;
         width: 100%;
-        height: 60vh;
+        height: 40vh;
         display: table;
         table-layout: fixed;
     }
@@ -184,9 +75,9 @@
         display: table-cell;
         vertical-align: middle;
         text-align: left;
-        padding-inline-start: 4vw;
+        padding-inline-start: 5vw;
         line-height: 150%;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-family: raleway_light;
         width: 45%;
     }
@@ -195,7 +86,8 @@
         display: table-cell;
         vertical-align: middle;
         text-align: right;
-        padding-inline-end: 10vw;
+        padding-inline-end: 7vw;
+        width: 50%;
         object-position: center;
     }
 
@@ -222,9 +114,46 @@
         font-size: 1.2rem;
     }
 
+    /* About page */
+
+    #info-area {
+        display: table;
+        width: 100%;
+    }
+
+    #prop-photo {
+        display: table-cell;
+        vertical-align: middle;
+        float: left;
+        width: 50%;
+        padding-inline-start: 5.8vw;
+        padding-bottom: 11vh;
+    }
+
+    #header {
+        display: table-cell;
+        width: 39%;
+        text-align: center;
+        float: right;
+        padding-inline-end: 5vw;
+        padding-block-start: 5vh;
+    }
+
+    #about-title {
+        font-size: 2.8rem;
+        font-family: 'raleway_semibold';
+    }
+
+    #about-text-1 {
+        line-height: 200%;
+        font-family: 'raleway_light';
+        padding-block-start: 4vh;
+        font-size: 0.9rem;
+    }
+
 }
 
-@media only screen and (min-width: 1279px) {
+@media only screen and (min-width: 1023px) {
 
     /* Navigation bar */
 
@@ -284,7 +213,6 @@
     }
 
     #text-area {
-        background-color: #f9f9f9;
         width: 100%;
         height: 80vh;
         display: table;
@@ -337,37 +265,35 @@
     #info-area {
         display: table;
         width: 100%;
-        height: 100vh;
-        background-color: #f9f9f9;
+    }
+
+    #prop-photo {
+        display: table-cell;
+        float: left;
+        width: 35%;
+        padding-inline-start: 5.8vw;
+        padding-block-start: 7.8vh;
     }
 
     #header {
-        display: table;
-        background-color: #929292a2;
-        width: 50vw;
-        height: 20vh;
+        display: table-cell;
+        width: 50%;
         float: right;
-        margin-top: 5vh;
-        margin-right: 5vw;
+        padding-inline-end: 5vw;
+        padding-block-start: 5vh;
     }
 
     #about-title {
-        display: table-cell;
-        vertical-align: middle;
         text-align: center;
-        color: #f9f9f9;
         font-size: 3.5rem;
         font-family: 'raleway_semibold';
     }
 
     #about-text {
-        display: table-cell;
-        float: right;
         width: 50vw;
-        line-height: 160%;
+        line-height: 180%;
         font-family: 'raleway_light';
-        margin-top: 5vh;
-        margin-right: 5vw;
+        padding-block-start: 5vh;
         font-size: 1.1rem;
     }
 }
