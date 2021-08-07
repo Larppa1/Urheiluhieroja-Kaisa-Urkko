@@ -150,7 +150,6 @@ body {
         padding-block-start: 4vh;
         font-size: 0.9rem;
     }
-
 }
 
 @media only screen and (min-width: 1023px) {
@@ -295,6 +294,54 @@ body {
         font-family: 'raleway_light';
         padding-block-start: 5vh;
         font-size: 1.1rem;
+    }
+
+    /* Pricing page */
+
+    #title-text {
+        font-size: 2.2rem;
+        font-family: 'raleway_semibold';
+        text-align: center;
+        padding-block-start: 3vh;
+    }
+
+    #box-table {
+        width: 100%;
+        padding-inline: 1vw;
+        border-spacing: 2vw;
+    }
+
+    #box {
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 25%;
+        vertical-align: top;
+    }
+
+    #box-title {
+        width: 100%;
+        height: 10%;
+        font-family: 'raleway_semibold';
+        padding-block-start: 2vh;
+        font-size: 1.2rem;
+    }
+
+    #info {
+        display: table;
+        width: 100%;
+        line-height: 80%;
+    }
+
+    #box-left {
+        float: left;
+        font-family: 'raleway_light';
+        font-size: 1.5rem;
+    }
+
+    #box-right {
+        float: right;
+        font-family: 'raleway_light';
+        font-size: 1.5rem;  
     }
 }
 
