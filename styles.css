@@ -25,7 +25,7 @@ body {
         padding-inline-start: 2.2vw;
         font-size: 1.6rem;
         min-width: 50vw;
-        font-family: raleway_semibold;
+        font-family: 'raleway_semibold';
         color: #f9f9f9;
     }
     
@@ -43,7 +43,7 @@ body {
     }
 
     #banner {
-        background-image: url(img/banner-photo.png);
+        background-image: url(img/banner-photo.webp);
         background-size: 100% 110%;
         width: 100%;
         height: 40vh;
@@ -57,7 +57,7 @@ body {
         padding-inline-start: 3vw;
         line-height: 180%;
         font-size: 1.2rem;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
     }
 
     #banner-list-title {
@@ -78,7 +78,7 @@ body {
         padding-inline-start: 5vw;
         line-height: 150%;
         font-size: 1.2rem;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
         width: 45%;
     }
 
@@ -96,7 +96,7 @@ body {
         width: 100%;
         height: 10vh;
         background-color: #35530a;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
     }
 
     #footer-text {
@@ -110,7 +110,7 @@ body {
 
     #footer-title {
         line-height: 250%;
-        font-family: raleway_semibold;
+        font-family: 'raleway_semibold';
         font-size: 1.2rem;
     }
 
@@ -219,7 +219,7 @@ body {
         padding-inline-start: 2vw;
         font-size: 1.9rem;
         min-width: 50vw;
-        font-family: raleway_semibold;
+        font-family: 'raleway_semibold';
         color: #f9f9f9;
     }
     
@@ -254,7 +254,7 @@ body {
         padding-inline-start: 3vw;
         line-height: 180%;
         font-size: 1.4rem;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
     }
 
     #banner-list-title {
@@ -275,7 +275,7 @@ body {
         padding-inline-start: 4vw;
         line-height: 150%;
         font-size: 1.7rem;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
         width: 45%;
     }
 
@@ -292,7 +292,7 @@ body {
         width: 100%;
         height: 14vh;
         background-color: #35530a;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
     }
 
     #footer-text {
@@ -305,7 +305,7 @@ body {
 
     #footer-title {
         line-height: 250%;
-        font-family: raleway_semibold;
+        font-family: 'raleway_semibold';
         font-size: 1.3rem;
     }
 
@@ -409,7 +409,7 @@ body {
         padding-inline-start: 2vw;
         font-size: 2rem;
         min-width: 50vw;
-        font-family: raleway_semibold;
+        font-family: 'raleway_semibold';
         color: #f9f9f9;
     }
     
@@ -428,7 +428,7 @@ body {
     }
 
     #banner {
-        background-image: url(img/banner-photo.png);
+        background-image: url(img/banner-photo.webp);
         background-size: 100% 120%;
         width: 100%;
         height: 60vh;
@@ -442,7 +442,7 @@ body {
         padding-inline-start: 3vw;
         line-height: 180%;
         font-size: 1.7rem;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
     }
 
     #banner-list-title {
@@ -464,7 +464,7 @@ body {
         padding-inline-start: 4vw;
         line-height: 150%;
         font-size: 1.8rem;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
         width: 45%;
     }
 
@@ -481,7 +481,7 @@ body {
         width: 100%;
         height: 10vh;
         background-color: #35530a;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
     }
 
     #footer-text {
@@ -561,7 +561,7 @@ body {
         padding-inline-start: 2vw;
         font-size: 2.4rem;
         min-width: 50vw;
-        font-family: raleway_semibold;
+        font-family: 'raleway_semibold';
         color: #f9f9f9;
     }
     
@@ -580,7 +580,7 @@ body {
     }
 
     #banner {
-        background-image: url(img/banner-photo.png);
+        background-image: url(img/banner-photo.webp);
         background-size: 100% 120%;
         width: 100%;
         height: 60vh;
@@ -594,7 +594,7 @@ body {
         padding-inline-start: 3vw;
         line-height: 180%;
         font-size: 2.2rem;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
     }
 
     #banner-list-title {
@@ -616,7 +616,7 @@ body {
         padding-inline-start: 4vw;
         line-height: 150%;
         font-size: 2.3rem;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
         width: 45%;
     }
 
@@ -633,7 +633,7 @@ body {
         width: 100%;
         height: 14vh;
         background-color: #35530a;
-        font-family: raleway_light;
+        font-family: 'raleway_light';
     }
 
     #footer-text {
@@ -646,7 +646,7 @@ body {
 
     #footer-title {
         line-height: 250%;
-        font-family: raleway_semibold;
+        font-family: 'raleway_semibold';
         font-size: 1.8rem;
     }
 }
