@@ -135,7 +135,7 @@ body {
     #about-text {
         line-height: 190%;
         font-family: 'raleway_light';
-        margin-top: 2vh;
+        margin-top: 3vh;
         font-size: 1rem;
     }
 
@@ -151,50 +151,67 @@ body {
     /* Pricing page */
 
     #title-text {
-        font-size: 2.2rem;
+        font-size: 1.4rem;
         font-family: 'raleway_semibold';
         text-align: center;
         padding-block-start: 3vh;
     }
 
     #box-table {
+        display: none;
         width: 100%;
         padding-inline: 1vw;
         border-spacing: 2vw;
         padding-block-start: 2vh;
     }
 
-    #box {
+    #pricing-box {
         background-color: #35530a;
         color: #f9f9f9;
-        width: 25%;
-        vertical-align: top;
+        width: 80%;
+        min-height: 35vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+    }
+
+    #pricing-box2 {
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 80%;
+        min-height: 35vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
 
     #box-title {
         width: 100%;
-        height: 10%;
+        text-align: center;
         font-family: 'raleway_semibold';
         padding-block-start: 1.5vh;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
 
     #info {
         display: table;
         width: 100%;
         line-height: 150%;
-        padding-block-start: 1vh;
+        padding-block-start: 2vh;
     }
 
     #box-left {
         float: left;
         font-family: 'raleway_light';
         font-size: 1.2rem;
+        padding-inline-start: 3vw;
     }
 
     #box-right {
         float: right;
         font-family: 'raleway_light';
+        padding-inline-end: 3vw;
         font-size: 1.2rem;  
     }
 }
@@ -355,6 +372,14 @@ body {
         padding-inline: 1vw;
         border-spacing: 2vw;
         padding-block-start: 2vh;
+    }
+
+    #pricing-box {
+        display: none;
+    }
+
+    #pricing-box2 {
+        display: none;
     }
 
     #box {
@@ -554,6 +579,14 @@ body {
         border-spacing: 2vw;
     }
 
+    #pricing-box {
+        display: none;
+    }
+
+    #pricing-box2 {
+        display: none;
+    }
+
     #box {
         background-color: #35530a;
         color: #f9f9f9;
@@ -747,6 +780,14 @@ body {
         border-spacing: 2vw;
     }
 
+    #pricing-box {
+        display: none;
+    }
+
+    #pricing-box2 {
+        display: none;
+    }
+
     #box {
         background-color: #35530a;
         color: #f9f9f9;
@@ -923,6 +964,62 @@ body {
 
     #prop-photo2 {
         display: none;
+    }
+
+    /* Pricing page */
+
+    #title-text {
+        font-size: 2.2rem;
+        font-family: 'raleway_semibold';
+        text-align: center;
+        padding-block-start: 3vh;
+    }
+
+    #box-table {
+        width: 100%;
+        padding-inline: 1vw;
+        border-spacing: 2vw;
+    }
+
+    #pricing-box {
+        display: none;
+    }
+
+    #pricing-box2 {
+        display: none;
+    }
+
+    #box {
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 25%;
+        vertical-align: top;
+    }
+
+    #box-title {
+        width: 100%;
+        height: 10%;
+        font-family: 'raleway_semibold';
+        padding-block-start: 2vh;
+        font-size: 1.2rem;
+    }
+
+    #info {
+        display: table;
+        width: 100%;
+        line-height: 80%;
+    }
+
+    #box-left {
+        float: left;
+        font-family: 'raleway_light';
+        font-size: 1.5rem;
+    }
+
+    #box-right {
+        float: right;
+        font-family: 'raleway_light';
+        font-size: 1.5rem;  
     }
 }
 
