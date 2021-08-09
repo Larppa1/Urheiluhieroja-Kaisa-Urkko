@@ -72,10 +72,10 @@ body {
         display: table-cell;
         vertical-align: middle;
         text-align: center;
-        line-height: 150%;
-        font-size: 0.8rem;
+        line-height: 200%;
+        font-size: 0.9rem;
         font-family: 'raleway_light';
-        padding-inline: 5vw;
+        padding-inline: 8vw;
     }
 
     #kaisa-photo {
@@ -86,6 +86,7 @@ body {
         display: table;
         width: 100%;
         height: 10vh;
+        margin-top: 5vh;
         background-color: #35530a;
         font-family: 'raleway_light';
     }
@@ -98,6 +99,7 @@ body {
         line-height: 150%;
         font-size: 0.65rem;
         color: #f9f9f9;
+        padding-inline: 2vw;
     }
 
     #footer-title {
@@ -120,28 +122,29 @@ body {
     #header {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5vh;
+        margin-top: 3vh;
         text-align: center;
         width: 80%;
     }
 
     #about-title {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         font-family: 'raleway_semibold';
     }
 
     #about-text {
-        line-height: 200%;
+        line-height: 190%;
         font-family: 'raleway_light';
         margin-top: 2vh;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     #prop-photo2 {
-        width: 60%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 4vh;
+        padding-bottom: 4vh;
         text-align: center;
     }
 
