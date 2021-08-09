@@ -8,7 +8,192 @@ body {
 }
 
 @media only screen and (max-width: 767px){
+    #navBar {
+        width: 100%;
+        height: 10vh;
+        background-color: #35530a;
+        display: table;
+    }
 
+    #main-title {
+        display: table-cell;
+        vertical-align: middle;
+        padding-inline-start: 2.2vw;
+        font-size: 0.9rem;
+        min-width: 50vw;
+        font-family: 'raleway_semibold';
+        color: #f9f9f9;
+    }
+    
+    #navBarItems {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        padding-inline-end: 2.2vw;
+    }
+
+    #navBarItem {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 0.6rem;
+    }
+
+    #banner {
+        background-image: url(img/banner-photo.webp);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 32vh;
+        display: table;
+    }
+
+    #banner-list {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        padding-inline-start: 3vw;
+        line-height: 180%;
+        font-size: 0.9rem;
+        font-family: 'raleway_light';
+    }
+
+    #banner-list-title {
+        line-height: 250%;
+    }
+
+    #text-area {
+        width: 100%;
+        height: 45vh;
+        display: table;
+        table-layout: fixed;
+    }
+
+    #left-text {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 150%;
+        font-size: 0.8rem;
+        font-family: 'raleway_light';
+        padding-inline: 5vw;
+    }
+
+    #kaisa-photo {
+        display: none;
+    }
+
+    #footer {
+        display: table;
+        width: 100%;
+        height: 10vh;
+        background-color: #35530a;
+        font-family: 'raleway_light';
+    }
+
+    #footer-text {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        padding-block-end: 2vh;
+        line-height: 150%;
+        font-size: 0.65rem;
+        color: #f9f9f9;
+    }
+
+    #footer-title {
+        line-height: 250%;
+        font-family: 'raleway_semibold';
+        font-size: 1rem;
+    }
+
+    /* About page */
+
+    #info-area {
+        display: block;
+        width: 100%;
+    }
+
+    #prop-photo {
+        display: none;
+    }
+
+    #header {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+        text-align: center;
+        width: 80%;
+    }
+
+    #about-title {
+        font-size: 3.5rem;
+        font-family: 'raleway_semibold';
+    }
+
+    #about-text {
+        line-height: 200%;
+        font-family: 'raleway_light';
+        margin-top: 2vh;
+        font-size: 1.2rem;
+    }
+
+    #prop-photo2 {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4vh;
+        text-align: center;
+    }
+
+    /* Pricing page */
+
+    #title-text {
+        font-size: 2.2rem;
+        font-family: 'raleway_semibold';
+        text-align: center;
+        padding-block-start: 3vh;
+    }
+
+    #box-table {
+        width: 100%;
+        padding-inline: 1vw;
+        border-spacing: 2vw;
+        padding-block-start: 2vh;
+    }
+
+    #box {
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 25%;
+        vertical-align: top;
+    }
+
+    #box-title {
+        width: 100%;
+        height: 10%;
+        font-family: 'raleway_semibold';
+        padding-block-start: 1.5vh;
+        font-size: 1.2rem;
+    }
+
+    #info {
+        display: table;
+        width: 100%;
+        line-height: 150%;
+        padding-block-start: 1vh;
+    }
+
+    #box-left {
+        float: left;
+        font-family: 'raleway_light';
+        font-size: 1.2rem;
+    }
+
+    #box-right {
+        float: right;
+        font-family: 'raleway_light';
+        font-size: 1.2rem;  
+    }
 }
 
 @media only screen and (min-width: 767px) {
@@ -117,38 +302,40 @@ body {
     /* About page */
 
     #info-area {
-        display: table;
+        display: block;
         width: 100%;
     }
 
     #prop-photo {
-        display: table-cell;
-        vertical-align: middle;
-        float: left;
-        width: 50%;
-        padding-inline-start: 5.8vw;
-        padding-bottom: 11vh;
+        display: none;
     }
 
     #header {
-        display: table-cell;
-        width: 39%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
         text-align: center;
-        float: right;
-        padding-inline-end: 5vw;
-        padding-block-start: 5vh;
+        width: 80%;
     }
 
     #about-title {
-        font-size: 2.8rem;
+        font-size: 3.5rem;
         font-family: 'raleway_semibold';
     }
 
-    #about-text-1 {
+    #about-text {
         line-height: 200%;
         font-family: 'raleway_light';
-        padding-block-start: 4vh;
-        font-size: 0.9rem;
+        margin-top: 2vh;
+        font-size: 1.2rem;
+    }
+
+    #prop-photo2 {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4vh;
+        text-align: center;
     }
 
     /* Pricing page */
@@ -321,12 +508,12 @@ body {
         float: left;
         width: 35%;
         padding-inline-start: 5.8vw;
-        padding-block-start: 7.8vh;
+        padding-block-start: 18vh;
     }
 
     #header {
         display: table-cell;
-        width: 50%;
+        width: 54%;
         float: right;
         padding-inline-end: 5vw;
         padding-block-start: 5vh;
@@ -339,11 +526,14 @@ body {
     }
 
     #about-text {
-        width: 50vw;
-        line-height: 180%;
+        line-height: 200%;
         font-family: 'raleway_light';
         padding-block-start: 5vh;
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    #prop-photo2 {
+        display: none;
     }
 
     /* Pricing page */
@@ -498,6 +688,47 @@ body {
         font-size: 1.2rem;
     }
 
+    /* About page */
+
+    #info-area {
+        display: table;
+        width: 100%;
+    }
+
+    #prop-photo {
+        display: table-cell;
+        float: left;
+        width: 35%;
+        padding-inline-start: 5.8vw;
+        padding-block-start: 7.8vh;
+    }
+
+    #header {
+        display: table-cell;
+        width: 50%;
+        float: right;
+        padding-inline-end: 5vw;
+        padding-block-start: 5vh;
+    }
+
+    #about-title {
+        text-align: center;
+        font-size: 3.6rem;
+        font-family: 'raleway_semibold';
+    }
+
+    #about-text {
+        width: 50vw;
+        line-height: 180%;
+        font-family: 'raleway_light';
+        padding-block-start: 5vh;
+        font-size: 1.3rem;
+    }
+
+    #prop-photo2 {
+        display: none;
+    }
+
     /* Pricing page */
 
     #title-text {
@@ -648,6 +879,47 @@ body {
         line-height: 250%;
         font-family: 'raleway_semibold';
         font-size: 1.8rem;
+    }
+
+    /* About page */
+
+    #info-area {
+        display: table;
+        width: 100%;
+    }
+
+    #prop-photo {
+        display: table-cell;
+        float: left;
+        width: 35%;
+        padding-inline-start: 5.8vw;
+        padding-block-start: 7.8vh;
+    }
+
+    #header {
+        display: table-cell;
+        width: 50%;
+        float: right;
+        padding-inline-end: 5vw;
+        padding-block-start: 5vh;
+    }
+
+    #about-title {
+        text-align: center;
+        font-size: 3.8rem;
+        font-family: 'raleway_semibold';
+    }
+
+    #about-text {
+        width: 50vw;
+        line-height: 180%;
+        font-family: 'raleway_light';
+        padding-block-start: 5vh;
+        font-size: 1.5rem;
+    }
+
+    #prop-photo2 {
+        display: none;
     }
 }
 
