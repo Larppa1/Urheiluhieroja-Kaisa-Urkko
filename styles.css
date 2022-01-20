@@ -39,6 +39,20 @@ body {
         font-size: 0.6rem;
     }
 
+    #navBarItem2 {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 0.6rem;
+    }
+
+    #navBarItem3 {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 0.6rem;
+    }
+
     #banner {
         background-image: url(img/banner-photo.webp);
         background-size: 100% 100%;
