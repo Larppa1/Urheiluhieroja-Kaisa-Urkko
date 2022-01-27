@@ -633,11 +633,24 @@ body {
     }
 
     #pricing-box {
-        display: none;
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 80%;
+        min-height: 35vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
     }
 
     #pricing-box2 {
-        display: none;
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 80%;
+        min-height: 35vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
 
     #box {
@@ -848,11 +861,24 @@ body {
     }
 
     #pricing-box {
-        display: none;
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 80%;
+        min-height: 35vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
     }
 
     #pricing-box2 {
-        display: none;
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 80%;
+        min-height: 35vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
 
     #box {
@@ -1063,11 +1089,24 @@ body {
     }
 
     #pricing-box {
-        display: none;
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 80%;
+        min-height: 35vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
     }
 
     #pricing-box2 {
-        display: none;
+        background-color: #35530a;
+        color: #f9f9f9;
+        width: 80%;
+        min-height: 35vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
 
     #box {
