@@ -204,14 +204,14 @@ body {
         width: 100%;
         text-align: center;
         font-family: 'raleway_semibold';
-        padding-block-start: 1.5vh;
+        padding-block-start: 2.5vh;
         font-size: 0.9rem;
     }
 
     #info {
         display: table;
         width: 100%;
-        line-height: 150%;
+        line-height: 80%;
         padding-block-start: 2vh;
     }
 
@@ -219,7 +219,8 @@ body {
         float: left;
         font-family: 'raleway_light';
         font-size: 1.2rem;
-        padding-inline-start: 3vw;
+        padding-inline-start: 4vw;
+        margin-bottom: 5vh;
     }
 
     #box-right {
@@ -632,27 +633,6 @@ body {
         border-spacing: 2vw;
     }
 
-    #pricing-box {
-        background-color: #35530a;
-        color: #f9f9f9;
-        width: 80%;
-        min-height: 35vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3vh;
-    }
-
-    #pricing-box2 {
-        background-color: #35530a;
-        color: #f9f9f9;
-        width: 80%;
-        min-height: 35vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-    }
-
     #box {
         background-color: #35530a;
         color: #f9f9f9;
@@ -671,7 +651,7 @@ body {
     #info {
         display: table;
         width: 100%;
-        line-height: 80%;
+        line-height: 200%;
     }
 
     #box-left {
@@ -860,27 +840,6 @@ body {
         border-spacing: 2vw;
     }
 
-    #pricing-box {
-        background-color: #35530a;
-        color: #f9f9f9;
-        width: 80%;
-        min-height: 35vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3vh;
-    }
-
-    #pricing-box2 {
-        background-color: #35530a;
-        color: #f9f9f9;
-        width: 80%;
-        min-height: 35vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-    }
-
     #box {
         background-color: #35530a;
         color: #f9f9f9;
@@ -899,7 +858,7 @@ body {
     #info {
         display: table;
         width: 100%;
-        line-height: 80%;
+        line-height: 250%;
     }
 
     #box-left {
@@ -1085,28 +1044,7 @@ body {
     #box-table {
         width: 100%;
         padding-inline: 2vw;
-        border-spacing: 2vw;
-    }
-
-    #pricing-box {
-        background-color: #35530a;
-        color: #f9f9f9;
-        width: 80%;
-        min-height: 35vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3vh;
-    }
-
-    #pricing-box2 {
-        background-color: #35530a;
-        color: #f9f9f9;
-        width: 80%;
-        min-height: 35vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3vh;
-        margin-bottom: 3vh;
+        border-spacing: 1vw;
     }
 
     #box {
@@ -1127,7 +1065,7 @@ body {
     #info {
         display: table;
         width: 100%;
-        line-height: 80%;
+        line-height: 250%;
     }
 
     #box-left {
