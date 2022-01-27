@@ -261,6 +261,18 @@ body {
         text-decoration: none;
     }
 
+    #navBarItem2 {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+    }
+
+    #navBarItem3 {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+    }
+
     #banner {
         background-image: url(img/banner-photo.webp);
         background-size: 100% 110%;
@@ -460,6 +472,20 @@ body {
     }
 
     #navBarItem {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+
+    #navBarItem2 {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+
+    #navBarItem3 {
         padding-inline: 0.8vw;
         color: #f9f9f9;
         text-decoration: none;
@@ -667,6 +693,20 @@ body {
         font-size: 1.2rem;
     }
 
+    #navBarItem2 {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    #navBarItem3 {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
     #banner {
         background-image: url(img/banner-photo.webp);
         background-size: 100% 120%;
@@ -862,6 +902,20 @@ body {
     }
 
     #navBarItem {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    #navBarItem2 {
+        padding-inline: 0.8vw;
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    #navBarItem3 {
         padding-inline: 0.8vw;
         color: #f9f9f9;
         text-decoration: none;
